@@ -60,11 +60,9 @@ const HomePage = () => {
           </Row>
           <Row>
             {semuaKelas.map((kelas) => {
-              const waMessage = `Halo%20mas,%20saya%20ingin%20membeli%20${encodeURIComponent(
+              const waMessage = `halo%20mas%20bima,%20saya%20mau%20tanya%20terkait%20${encodeURIComponent(
                 kelas.title
-              )}%20dengan%20harga%20${encodeURIComponent(
-                kelas.price
-              )}.%20Apakah%20stok%20tersedia?`;
+              )}%20secara%20lebih%20detail.%20boleh%20dijelaskan%20mas?`;
 
               return (
                 <Col
