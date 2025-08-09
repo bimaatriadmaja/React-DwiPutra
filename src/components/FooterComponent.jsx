@@ -33,7 +33,7 @@ const FooterComponent = () => {
             <Link to="/">Home</Link>
             <Link to="/kelas">Produk</Link>
             <Link to="/testimonial">Testimonial</Link>
-            <Link to="/faq">Layanan</Link>
+            <Link to="/faq">Cara Pesan</Link>
             <Link to="/syaratketen">Tentang Kami</Link>
           </Col>
           <Col lg="2" className="mt-lg-0 mt-5">

@@ -3,22 +3,24 @@ import { Routes, Route } from "react-router-dom";
 import NavbarComponent from "./components/NavbarComponent";
 import FooterComponent from "./components/FooterComponent";
 import HomePage from "./pages/HomePage";
-import KelasPage from "./pages/KelasPage";
+import ProdukPage from "./pages/ProdukPage";
 import TestimonialPage from "./pages/TestimonialPage";
-import SyaratKetenPage from "./pages/SyaratKetenPage";
-import FaqPage from "./pages/FaqPage";
+import TentangKamiPage from "./pages/TentangKamiPage";
+import CaraPesanPage from "./pages/CaraPesanPage";
+import DetailProdukPage from './pages/DetailProdukPage';
 
 function App() {
   return (
     <div>
-    <NavbarComponent />
+      <NavbarComponent />
 
       <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route path="/kelas" Component={KelasPage} />
-        <Route path="/testimonial" Component={TestimonialPage} />
-        <Route path="/faq" Component={FaqPage} />
-        <Route path="/syaratketen" Component={SyaratKetenPage} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/produk" element={<ProdukPage />} />
+        <Route path="/testimonial" element={<TestimonialPage />} />
+        <Route path="/carapesan" element={<CaraPesanPage />} />
+        <Route path="/tentangkami" element={<TentangKamiPage />} />
+        <Route path="/produk/:id" element={<DetailProdukPage />} />
       </Routes>
 
       <FooterComponent />

@@ -4,7 +4,7 @@ import VisiMisiImage from "../assets/img/tentangkami/visimisi.png";
 import ServiceImage from "../assets/img/tentangkami/service.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-const SyaratKetenPage = () => {
+const TentangKamiPage = () => {
   return (
     <div className="syarat-ketentuan-page">
       <div className="syarat-ketentuan min-vh-100">
@@ -115,4 +115,4 @@ const SyaratKetenPage = () => {
   );
 };
 
-export default SyaratKetenPage;
+export default TentangKamiPage;

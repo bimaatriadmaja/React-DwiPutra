@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import GambarRumah from "../assets/img/layanan/rumah.png";
 import TipsImage from "../assets/img/layanan/tips.png";
 
-const FaqPage = () => {
+const CaraPesanPage = () => {
   return (
     <div className="faq pt-5">
       <Row className="w-100 min-vh-100 rumah d-flex align-items-center pt-lg-5">
@@ -110,8 +110,7 @@ const FaqPage = () => {
                   produk dan mendapatkan estimasi, lakukan pemesanan dengan menghubungi tim penjualan kami.
                 </li>
                 <li className="mb-2 animate__animated animate__fadeInUp animate__delay-2s">
-                  <strong>Pembayaran:</strong> Pilih metode pembayaran yang
-                  tersedia dan lakukan pembayaran sesuai dengan instruksi.
+                  <strong>Pembayaran:</strong> Pembayaran dapat dilakukan melalui transfer ke rekening atau secara COD, dengan ketentuan membayar uang muka (DP) terlebih dahulu sebagai tanda jadi.
                 </li>
                 <li className="mb-2 animate__animated animate__fadeInUp animate__delay-2s">
                   <strong>Pengiriman:</strong> Tim kami akan mengatur pengiriman
@@ -137,4 +136,4 @@ const FaqPage = () => {
   );
 };
 
-export default FaqPage;
+export default CaraPesanPage;

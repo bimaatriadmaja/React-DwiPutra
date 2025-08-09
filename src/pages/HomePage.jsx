@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from "react-bootstrap";
 import HomeImage from "../assets/img/home.png";
 
-import { semuaKelas, dataSwiper } from "../data/index";
+import { semuaGenteng } from "../data/index";
 import { useNavigate } from "react-router-dom";
 import FaqComponent from "../components/FaqComponent";
 import { testimonial } from '../data/index'; 
@@ -32,7 +32,7 @@ const HomePage = () => {
               </p>
               <button
                 className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-0.5s btn-danger-custom"
-                onClick={() => navigate("/kelas")}
+                onClick={() => navigate("/produk")}
               >
                 Pesan Sekarang!
               </button>
@@ -59,7 +59,7 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
-            {semuaKelas.map((kelas) => {
+            {semuaGenteng.map((kelas) => {
               const waMessage = `halo%20mas%20bima,%20saya%20mau%20tanya%20terkait%20${encodeURIComponent(
                 kelas.title
               )}%20secara%20lebih%20detail.%20boleh%20dijelaskan%20mas?`;
@@ -113,7 +113,7 @@ const HomePage = () => {
                 className="btn btn-success rounded-5 btn-lg"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                onClick={() => navigate("/kelas")}
+                onClick={() => navigate("/produk")}
               >
                 Lihat Lebih Detail{" "}
                 <i className="fa-solid fa-chevron-right ms-1"></i>

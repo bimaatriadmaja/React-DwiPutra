@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { testimonial } from '../data/index'; // Pastikan path ini benar
+import { testimonial } from '../data/index';
 
 import FaqComponent from "../components/FaqComponent";
 
