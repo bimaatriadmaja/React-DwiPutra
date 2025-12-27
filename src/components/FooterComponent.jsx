@@ -10,7 +10,7 @@ const FooterComponent = () => {
       <Container>
         <Row className="d-flex justify-content-between">
           <Col lg="3">
-            <h3 className="fw-bold pb-2">Dwi Putra.</h3>
+            <h3 className="fw-bold pb-2">Genteng Press.</h3>
             <p className="desc">Dengan komitmen terhadap kualitas dan inovasi, kami memastikan setiap genteng yang diproduksi memenuhi standar tertinggi, menjadikan kami pilihan terpercaya untuk kebutuhan atap Anda.</p>
           </Col>
           <Col lg="3" className="d-flex flex-column col-lg-2 col mt-lg-0 mt-5">
@@ -57,7 +57,7 @@ const FooterComponent = () => {
           <Col>
             <p className="text-center px-md-0 px-3">
               &copy; Copyright {new Date().getFullYear()} by{" "}
-              <span className="fw-bold">Dwi Putra</span>, All Right
+              <span className="fw-bold">Bima Triadmaja</span>, All Right
               Reserved
             </p>
           </Col>

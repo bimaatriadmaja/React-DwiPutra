@@ -12,7 +12,7 @@ const TentangKamiPage = () => {
           <Row className="d-flex align-items-center pt-lg-5 pt-5 pb-5">
             <Col lg="6" className="visi-misi">
               <p className="mb-4 fw-semibold animate__animated animate__fadeInUp animate__delay-1s">
-                Selamat datang di Dwi Putra, perusahaan terkemuka dalam produksi
+                Selamat datang di usahanya Mas Bima, usaha terkemuka dalam produksi
                 dan penjualan genteng press berkualitas. Kami bangga menjadi
                 pilihan utama bagi pelanggan yang mencari solusi atap yang tahan
                 lama, estetis, dan berkualitas tinggi.

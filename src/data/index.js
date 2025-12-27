@@ -148,13 +148,13 @@ export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apa jenis genteng yang tersedia di Dwi Putra?",
+    title: "Apa jenis genteng yang tersedia disini?",
     desc: "Terdapat 4 jenis genteng yang dapat Anda beli. Genteng Morando, Genteng Mantili, Genteng Biasa yang digunakan untuk menutupi atap secara keseluruhan, kemudian Krepus yang digunakan untuk menutupi dari setiap ujung/kerucut atap.",
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Bagaimana cara memesan genteng di Dwi Putra?",
+    title: "Bagaimana cara memesan genteng disini?",
     desc: "Anda dapat memesan genteng melalui website kami, telepon, atau datang langsung ke perusahaan kami.",
   },
   {
@@ -172,7 +172,7 @@ export const faq = [
   {
     id: 5,
     eventKey: 4,
-    title: "Apakah genteng Dwi Putra tahan terhadap cuaca ekstrem?",
+    title: "Apakah gentengnya mas bima tahan terhadap cuaca ekstrem?",
     desc: "Ya, genteng kami dirancang untuk tahan terhadap berbagai kondisi cuaca ekstrem, termasuk hujan lebat, angin kencang, dan panas matahari.",
   },
   {

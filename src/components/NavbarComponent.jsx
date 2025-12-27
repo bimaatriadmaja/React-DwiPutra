@@ -42,7 +42,7 @@ const NavbarComponent = () => {
   >
     <Container>
       <Navbar.Brand href="#home" className="fs-3 fw-bold">
-        Dwi Putra.
+        Genteng Press.
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
